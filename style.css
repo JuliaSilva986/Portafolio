@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+/*HEADER*/
+nav{
+    display: flex;
+}
+
+header{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    padding-top: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.253);
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.navegacion{
+    display: flex;
+    gap: 30px;
+}
+
+.navegacion li{
+    list-style: none;
+    gap: 60px;
+}
+
+.navegacion li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+nav ul li a:hover{
+    color: gray;
+}
+
+/*MAIN*/
+
+.contenido-principal{
+    display: flex;
+}
+main{
+    display: flex ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(./img/Pizarron.jpeg);
+    background-repeat: no-repeat ;
+    background-size: cover; 
+    position: relative;
+    width: 900px;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+main img{
+    height: auto;
+    width: 230px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+main img{
+   border: #e5e5e5 solid 7px;
+}
+
+
+aside{
+    width: 480px;
+    float: right;
+
+}
+
+aside img{
+    width: 480px;
+    border-radius: 3px;
+}
+
+.fondo{
+    flex: 1; 
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px ;
+    justify-content: center;
+    text-align: center;
+    line-height: 28px;
+    font-size: 18.5px;
+}
+
+/*CV*/
+
+.contenedor-flex{
+    display: flex;
+    align-items: flex-start;
+}
+
+.contenedor{
+    width: 400px;
+    font-size: 17px;
+    margin-left: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;  
+}
+.contenedor ul li{
+    text-align: start;
+}
+.fondo h2{
+    padding-bottom: 15px;
+}
+
+.box-1{
+    font-weight: 900;
+    font-size: 25px;
+    margin-right: 13px;
+    margin-bottom: 20px;
+}
+
+#header-item{
+    text-align: center;
+    list-style-type: none;
+    justify-content: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.boton-CV{
+    height: 40px;
+    width: 150px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color:rgb(42, 125, 159);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 700;
+    border: solid 1px rgb(42, 125, 159);
+    cursor: pointer;
+    box-shadow:  5px 5px 5px rgb(4, 58, 80);
+}
+
+.boton-CV:hover{
+    background-color: rgb(25, 98, 128)
+}
+
+/*SKILLS*/
+
+.box-2{
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.contenedor-HS{
+    width: 650px;
+    font-size: 17px;
+    margin-left: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.contenedor-HS ul li{
+    text-align: start;
+}
+
+#no-bullet{
+    list-style-type: none;
+}
+
+#separacion{
+    margin-bottom: 10px;
+}
+
+#header-item-2{
+    text-align: center;
+    list-style-type: none;
+    justify-content: center;
+    font-size: 17px;
+    margin-bottom: 7px;
+    color:  rgb(21, 81, 105);
+}
+.contenedor-idioma{
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+}
+#separacion-2{
+    margin-bottom: 80px;
+
+}
+
+/*CONTACTO*/
+
+.lista-contacto{
+    text-align: center;
+    line-height: 50px;
+    font-size: 21px;
+}
+
+.lista-contacto li{
+    list-style-type: none;
+}
+.icon-2{
+    margin-right: 20px;
+    font-size: x-large;
+}
+.lista-contacto li a{
+    color: black;
+
+}
+.lista-contacto li a:hover .icon-2{
+    transform: scale(1.5);
+    color: rgb(42, 125, 159);
+}
